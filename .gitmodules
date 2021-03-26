@@ -1,0 +1,3 @@
+[submodule "breakclone"]
+	path = breakclone
+	url = https://github.com/argymeg/breakclone

@@ -1,6 +1,6 @@
 #' @title HeatmapCNPairs()
 #' @description Plot absolute copy number heatmap of a pair of samples from copy number call scores data.
-#' @param mat A matrix with the call scores per bin across the genome (columns) and the pair of samples (rows). 
+#' @param mat A matrix with the call scores per bin across the genome (columns) and the pair of samples (rows). Rownames must be the name of the samples and colnames must be a annotated like the following example: 1:1-100001 meaning chromosome 1 from start coordinate 1 to end coordinate 100001.
 #' @param breakdir A character vector with the directory to the shared breakpoints exported with exportSharedBreaks() function.
 #' @param brk A vector of break values to plot. By default, call score < 0 will be losses (blue) and > 0 will be gains (red).
 #' @param col A character vector of colors for each sample to plot. By default, purple and orange.

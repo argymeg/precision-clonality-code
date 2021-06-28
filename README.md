@@ -21,6 +21,10 @@ This directory contains the following scripts used in the analysis:
 * `HeatmapCNPairs.R` R function which takes as an input directory to shared breakpoints exported by `exportSharedBreaks.R` and a call score copy number matrix for a pair of samples and plots a copy number heatmap with shared breakpoints and copy number bar. 
 
 
-### Mutation related scripts:
+### Panel-seq analysis related scripts:
 
 * `make_oncoPrint.R` takes as an input table of mutations and outputs statistical analysis of number of mutations for all genes in the panel and plots oncoPrint.
+
+### WES analysis related scripts:
+
+* `wes_analysis.R` takes as an input table of mutations and outputs WES data analysis and plots VAF scatterplots, VAF boxplots and oncoPrint.

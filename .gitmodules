@@ -4,3 +4,6 @@
 [submodule "precision_clonality"]
 	path = precision_clonality
 	url = https://github.com/TapsiS/precision_clonality.git
+[submodule "PRECISION_clonality_sc"]
+	path = PRECISION_clonality_sc
+	url = https://github.com/navinlabcode/PRECISION_clonality_sc.git

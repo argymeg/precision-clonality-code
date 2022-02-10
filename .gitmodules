@@ -1,3 +1,6 @@
 [submodule "breakclone"]
 	path = breakclone
 	url = https://github.com/argymeg/breakclone
+[submodule "PRECISION_clonality_sc"]
+	path = PRECISION_clonality_sc
+	url = https://github.com/navinlabcode/PRECISION_clonality_sc

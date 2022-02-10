@@ -7,6 +7,7 @@ Directory structure
 
 * `breakclone` - R package to assess clonality of tumour pairs.
 * `analysis` - Scripts used in the analysis.
+* `precision_clonality` - Link to Platypus and WES scripts.
 
 Analysis
 --------
@@ -28,3 +29,6 @@ This directory contains the following scripts used in the analysis:
 ### WES analysis related scripts:
 
 * `wes_analysis.R` takes as an input table of mutations and outputs WES data analysis and plots VAF scatterplots, VAF boxplots and oncoPrint.
+* `wes_pipe.sh` located in the linked submodule `precision_clonality`. Command in the pipeline script to generate platyPus. Platypus 0.5.2 was used to call germline variants. 
+
+
